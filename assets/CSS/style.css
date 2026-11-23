@@ -81,3 +81,41 @@ body{
     font-size: 13px;
     margin-top: 15px;
 }
+
+.socialLinks {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialLinks a {
+    color: white;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterLink a {
+    background-color: #1DA1F2;
+}
+
+.facebookLink a {
+    background-color: #3B5998;
+}
+
+.googleLink a {
+    background-color: #F9755A;
+}
+
+.behanceLink a {
+    background-color: #1968F5;
+}
+
