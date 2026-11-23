@@ -1,121 +1,142 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-    padding: 15px;
-    font-family: "Source Sans 3", sans-serif;
+body {
+  background-color: black;
+  padding: 15px;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .userCard {
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1 1 300px;
-    min-width: 250px;
-    max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 300px;
+  min-width: 250px;
+  max-width: 350px;
 }
 
 .dotsBtn {
-    border: 0;
-    background-color: transparent;
-    color: grey;
-    font-size: 20px;
-    cursor: pointer;
-    
-    
-    align-self: flex-end;
-}
+  border: 0;
+  background-color: transparent;
+  color: grey;
+  font-size: 20px;
+  cursor: pointer;
 
+  align-self: flex-end;
+}
 
 .userImg {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.userName{
-    font-size: 25px;
-    margin-top: 15px;
+.userName {
+  font-size: 25px;
+  margin-top: 15px;
 }
 
-.userJob{
-    font-size: 15px;
-    color: grey;
+.userJob {
+  font-size: 15px;
+  color: grey;
 }
 
 .stats {
-    display: flex;
-    justify-content: space-between; 
-    align-self: stretch;
-    margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  margin-top: 15px;
 }
 
 .stats li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .statsLabel {
-    color: grey;
-    font-size: 15px;
+  color: grey;
+  font-size: 15px;
 }
 
 .aboutUser {
-    text-align: center;
-    color: grey;
-    font-size: 13px;
-    margin-top: 15px;
+  text-align: center;
+  color: grey;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .socialLinks {
-    margin-top: 20px;
+  margin-top: auto;
 
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 .socialLinks a {
-    color: white;
-    width: 21px;
-    height: 21px;
-    font-size: 12px;
-    border-radius: 50%;
-    text-decoration: none;
+  color: white;
+  width: 21px;
+  height: 21px;
+  font-size: 12px;
+  border-radius: 50%;
+  text-decoration: none;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .twitterLink a {
-    background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .facebookLink a {
-    background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .googleLink a {
-    background-color: #F9755A;
+  background-color: #f9755a;
 }
 
 .behanceLink a {
-    background-color: #1968F5;
+  background-color: #1968f5;
 }
 
+.profileBtn {
+    margin-top: 15px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #31b6c0;
+  color: white;
+  box-shadow: 0 0 10px grey;
+  max-width: 200px;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.profileBtn:hover {
+  border: 1px solid grey;
+  background-color: transparent;
+  color: grey;
+  box-shadow: none;
+}
