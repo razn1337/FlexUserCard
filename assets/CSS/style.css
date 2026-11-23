@@ -5,7 +5,7 @@
 body{
     background-color: black;
     padding: 15px;
-    font-family: sans-serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .cards {
@@ -15,7 +15,7 @@ body{
 }
 
 .userCard {
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
 
@@ -48,6 +48,7 @@ body{
 
 .userName{
     font-size: 25px;
+    margin-top: 15px;
 }
 
 .userJob{
@@ -57,8 +58,9 @@ body{
 
 .stats {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-self: stretch;
+    margin-top: 15px;
 }
 
 .stats li {
@@ -75,4 +77,7 @@ body{
 
 .aboutUser {
     text-align: center;
+    color: grey;
+    font-size: 13px;
+    margin-top: 15px;
 }
