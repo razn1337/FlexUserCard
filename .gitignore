@@ -1,0 +1,39 @@
+# Секрети та змінні оточення
+.env
+.env.*
+*.pem
+*.key
+
+# Системні файли (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Налаштування IDE та редакторів коду
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Залежності та пакети (залежно від стеку)
+node_modules/
+vendor/
+venv/
+.venv/
+
+# Зібрані файли та кеш
+dist/
+build/
+out/
+.cache/
+__pycache__/
+*.pyc
+
+# Логи та тимчасові файли
+*.log
+npm-debug.log*
+yarn-debug.log*
+logs/
+tmp/
+temp/
