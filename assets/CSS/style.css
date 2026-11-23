@@ -3,5 +3,76 @@
 }
 
 body{
+    background-color: black;
     padding: 15px;
+    font-family: sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.userCard {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 300px;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.dotsBtn {
+    border: 0;
+    background-color: transparent;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+    align-self: flex-end;
+}
+
+
+.userImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.userName{
+    font-size: 25px;
+}
+
+.userJob{
+    font-size: 15px;
+    color: grey;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around; 
+    align-self: stretch;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.statsLabel {
+    color: grey;
+    font-size: 15px;
+}
+
+.aboutUser {
+    text-align: center;
 }
